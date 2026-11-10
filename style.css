@@ -1,0 +1,1543 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	width: 1500px;
+	height: auto;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+}
+
+.qidiruv {
+	border: 2px solid none;
+	border-radius: 8px;
+	background-color: #EDEDED;
+	width: 450px;
+	height: 44px;
+	padding-top: 10px;
+	color: gray;
+}
+
+.qidiruv i {
+	color: #FF0000;
+}
+
+.scales i {
+	color: #FF0000;
+}
+
+.savatcha i {
+	color: #FF0000;
+}
+
+.sevimlilar i {
+	color: #FF0000;
+}
+
+.kompyuter i {
+	color: #FF0000;
+}
+
+/* BOTTOM-BAR CSS CODE */
+
+.bottom-bar {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.katalog {
+	width: 90px;
+	height: 40px;
+	background-color: #FF0000;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.katalog i {
+	color: white;
+}
+
+.noutbook i {
+	color: #FF0000;
+}
+
+.brendlar {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.borderred {
+	width: 113px;
+	height: 3px;
+	background-color: #FF0000;
+}
+
+.wallet i {
+	color: #FF0000;
+}
+
+/* ORTA-BAR CSS CODE */
+
+
+.orta-bar {
+	display: flex;
+	margin-top: 130px;
+	margin-bottom: 180px;
+	justify-content: space-between;
+}
+
+.shadow1 {
+	width: 50px;
+	height: 50px;
+	border: 2px solid none;
+	background-color: rgb(243, 227, 227);
+	border-radius: 100%;
+	box-shadow: -0px 0px 55px -19px;
+
+	text-align: center;
+	padding-top: 15px;
+}
+
+.shadow1 i {
+	color: red;
+}
+
+.shadow2 {
+	width: 50px;
+	height: 50px;
+	border: 2px solid none;
+	background-color: rgb(243, 227, 227);
+	border-radius: 100%;
+	box-shadow: -0px 0px 55px -19px;
+
+	text-align: center;
+	padding-top: 15px;
+}
+
+.shadow2 i {
+	color: red;
+}
+
+.mahsulotlar1 {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred1 {
+	width: 385px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+/* .q1div{
+	display: flex;
+	justify-content: space-between;
+} */
+
+.qq1div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q1-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q1-1-ustun p {
+	color: gray;
+}
+
+.savat1 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q1-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q1-2-ustun p {
+	color: gray;
+}
+
+.savat2 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q1-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q1-3-ustun p {
+	color: gray;
+}
+
+.savat3 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q1-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q1-4-ustun p {
+	color: gray;
+}
+
+.savat4 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q1-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q1-5-ustun p {
+	color: gray;
+}
+
+.savat5 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+/* qq2div css code */
+
+.kesylar {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred2 {
+	width: 115px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+
+.qq2div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q2-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q2-1-ustun p {
+	color: gray;
+}
+
+.savat6 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q2-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q2-2-ustun p {
+	color: gray;
+}
+
+.savat7 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q2-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q2-3-ustun p {
+	color: gray;
+}
+
+.savat8 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q2-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q2-4-ustun p {
+	color: gray;
+}
+
+.savat9 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q2-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q2-5-ustun p {
+	color: gray;
+}
+
+.savat10 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+/* QQ3DIV CSS code */
+
+.quloqchinlar {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred3 {
+	width: 195px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq3div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q3-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q3-1-ustun p {
+	color: gray;
+}
+
+.savat11 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q3-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q3-2-ustun p {
+	color: gray;
+}
+
+.savat12 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q3-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q3-3-ustun p {
+	color: gray;
+}
+
+.savat13 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q3-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q3-4-ustun p {
+	color: gray;
+}
+
+.savat14 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q3-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q3-5-ustun p {
+	color: gray;
+}
+
+.savat15 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+/* qq4div css code */
+
+.sichqonlar {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred4 {
+	width: 385px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq4div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q4-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q4-1-ustun p {
+	color: gray;
+}
+
+.savat16 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q4-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q4-2-ustun p {
+	color: gray;
+}
+
+.savat17 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q4-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q4-3-ustun p {
+	color: gray;
+}
+
+.savat18 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q4-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q4-4-ustun p {
+	color: gray;
+}
+
+.savat19 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q4-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q4-5-ustun p {
+	color: gray;
+}
+
+.savat20 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+/* qq5div css code */
+
+
+.klaviatura {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred5 {
+	width: 180px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq5div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q5-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q5-1-ustun p {
+	color: gray;
+}
+
+.savat21 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q5-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q5-2-ustun p {
+	color: gray;
+}
+
+.savat22 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q5-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q5-3-ustun p {
+	color: gray;
+}
+
+.savat23 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q5-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q5-4-ustun p {
+	color: gray;
+}
+
+.savat24 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q5-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q5-5-ustun p {
+	color: gray;
+}
+
+.savat25 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+
+/* qq6div css code */
+
+.mikrafon {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred6 {
+	width: 170px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq6div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q6-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q6-1-ustun p {
+	color: gray;
+}
+
+.savat26 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q6-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q6-2-ustun p {
+	color: gray;
+}
+
+.savat27 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q6-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q6-3-ustun p {
+	color: gray;
+}
+
+.savat28 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q6-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q6-4-ustun p {
+	color: gray;
+}
+
+.savat29 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q6-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q6-5-ustun p {
+	color: gray;
+}
+
+.savat30 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.corsair-photo {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	margin-bottom: 100px;
+}
+
+/* qq7div css code */
+
+.kuller {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred7 {
+	width: 88px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq7div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q7-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q7-1-ustun p {
+	color: gray;
+}
+
+.savat31 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q7-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q7-2-ustun p {
+	color: gray;
+}
+
+.savat32 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q7-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q7-3-ustun p {
+	color: gray;
+}
+
+.savat33 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q7-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q7-4-ustun p {
+	color: gray;
+}
+
+.savat34 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q7-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q7-5-ustun p {
+	color: gray;
+}
+
+.savat35 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+/* qq8div css code */
+/* qq8div css code */
+/* qq8div css code */
+/* qq8div css code */
+/* qq8div css code */
+/* qq8div css code */
+
+.kreslo {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred8 {
+	width: 97px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq8div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q8-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q8-1-ustun p {
+	color: gray;
+}
+
+.savat36 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q8-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q8-2-ustun p {
+	color: gray;
+}
+
+.savat37 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q8-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q8-3-ustun p {
+	color: gray;
+}
+
+.savat38 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q8-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q8-4-ustun p {
+	color: gray;
+}
+
+.savat39 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q8-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q8-5-ustun p {
+	color: gray;
+}
+
+.savat40 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+/* qq9div css code */
+/* qq9div css code */
+/* qq9div css code */
+/* qq9div css code */
+/* qq9div css code */
+/* qq9div css code */
+
+.topm {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred9 {
+	width: 310px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq9div {
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+}
+
+.q9-1-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q9-1-ustun p {
+	color: gray;
+}
+
+.savat41 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q9-2-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q9-2-ustun p {
+	color: gray;
+}
+
+.savat42 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q9-3-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q9-3-ustun p {
+	color: gray;
+}
+
+.savat43 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q9-4-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q9-4-ustun p {
+	color: gray;
+}
+
+.savat44 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.q9-5-ustun {
+	padding-top: 10px;
+	text-align: center;
+	border: px solid black;
+	width: 227px;
+	height: 370px;
+	background-color: #f5f5f5;
+	margin-bottom: 100px;
+}
+
+.q9-5-ustun p {
+	color: gray;
+}
+
+.savat45 {
+	border: 2px solid red;
+	background-color: #FF0000;
+	width: 223px;
+	height: 40px;
+}
+
+.chegirma {
+	display: flex;
+	justify-content: center;
+	line-height: 40px;
+	flex-direction: column;
+}
+
+.borderred10 {
+	width: 400px;
+	height: 2px;
+	background-color: #FF0000;
+	margin-bottom: 50px;
+}
+
+.qq10div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.footer {
+	padding: 10px;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 200px;
+}
+
+.qq11div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	flex-direction: column;
+	text-align: center;
+}
+
+.qq11div h1 {
+	margin-bottom: 20px;
+	color: white;
+}
+
+.qq11div p {
+	width: 411px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #FFFFFFB2;
+	margin-bottom: 50px;
+
+}
+
+.borders {
+	display: flex;
+	justify-content: center;
+	gap: 13px;
+	line-height: 50px;
+	color: gray;
+	margin-bottom: 15px;
+}
+
+.borders1 {
+	display: flex;
+	justify-content: center;
+	line-height: 50px;
+}
+
+.ism {
+	width: 280px;
+	height: 48px;
+	border: 1px solid;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.raqam {
+	width: 280px;
+	height: 48px;
+	border: 1px solid;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.send {
+	width: 572px;
+	height: 48px;
+	border: px solid;
+	background-color: #FF0000;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.send i {
+	color: white;
+}
+
+.ff-part {
+	display: flex;
+	justify-content: center;
+	gap: 150px;
+}
+
+.footer-logo p {
+	color: gray;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.tolovturi p {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.tolovturi {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.uzcard {
+	width: 150px;
+	height: 60px;
+	border-radius: 12px;
+	border: px solid black;
+	background-color: #212427;
+}
+
+.humo {
+	width: 150px;
+	height: 60px;
+	border-radius: 12px;
+	border: px solid black;
+	background-color: #212427;
+}
+
+.click {
+	width: 150px;
+	height: 60px;
+	border-radius: 12px;
+	border: px solid black;
+	background-color: #212427;
+}
+
+.payme {
+	width: 150px;
+	height: 60px;
+	border-radius: 12px;
+	border: px solid black;
+	background-color: #212427;
+}
+
+.visa {
+	width: 150px;
+	height: 60px;
+	border-radius: 12px;
+	border: px solid black;
+	background-color: #212427;
+}
+
+.mastercard {
+	width: 150px;
+	height: 60px;
+	border-radius: 12px;
+	border: px solid black;
+	background-color: #212427;
+}
+
+.tolovturi .uzcrd {
+	padding-top: 10px;
+}
+
+.tolovturi .hmo {
+	padding-top: 22px;
+}
+
+.tolovturi .klik {
+	padding-top: 15px;
+}
+
+.tolovturi .pay {
+	padding-top: 12px;
+}
+
+.tolovturi .vis {
+	padding-top: 17px;
+}
+
+.tolovturi .master {
+	padding-top: 13px;
+}
+
+.bolimlar {
+	line-height: 25px;
+}
+
+.bolimlar h4 {
+	color: #FFFFFF;
+}
+
+.bolimlar p {
+	font-size: 14px;
+	color: #929FA5;
+}
+
+
+.boglanish {
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.boglanish h4 {
+	color: #FFFFFF;
+}
+
+.boglanish p i {
+	color: #FFFFFF;
+}
+
+.boglanish p {
+	color: #929FA5;
+}
+
+.instagram {
+	display: flex;
+}
+
+/* RAXMAT VAQT AJRATGANINGZ UCHUN */
